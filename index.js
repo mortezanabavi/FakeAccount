@@ -22,15 +22,12 @@ function ClearCookie(){
     document.cookie = '';
 }
 function SignUp(){
+    window.open("https://waitlist.stackedinvest.com/invest?kid=2BGR4H", "_self")
     window.onload = function(){
         var email = 'mortezanabavi'+Math.floor(Math.random() * 900)+'@gmail.com';
         document.getElementById("email").value = email;
         document.getElementById("btn-id-hmjjvmhj9zg").click();
-        setTimeout(() => {
-            ClearCookie();
-        }, 8000);
         showDialog('SignUp Done.');
     };
-    window.open("https://waitlist.stackedinvest.com/invest?kid=2BGR4H", "_self");
 }
 SignUp();
