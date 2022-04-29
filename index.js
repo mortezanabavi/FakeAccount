@@ -25,6 +25,7 @@ function sleep(time) {
   return new Promise((resolve) => setTimeout(resolve, time));
 }
 function SignUp(){
+    showDialog('Reloading Page ...');
     window.open("https://waitlist.stackedinvest.com/invest?kid=2BGR4H", "_self");
     sleep(5000).then(() => {
         var email = 'mortezanabavi'+Math.floor(Math.random() * 900)+'@gmail.com';
