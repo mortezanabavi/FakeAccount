@@ -32,3 +32,4 @@ function Run(){
         ClearCookie();
     }, 10000);
 }
+Run();
