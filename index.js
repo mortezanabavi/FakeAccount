@@ -1,8 +1,3 @@
-
-function get_cookie(){
-    var x = document.cookie; 
-    alert(x);
-}
 function showDialog(text) {
     const dialog = document.createElement("div");
     dialog.style.position = "fixed";
@@ -23,4 +18,8 @@ function showDialog(text) {
         document.body.removeChild(dialog);
     }, 8000);
 }
-get_cookie();
+function ClearCookie(){
+    document.cookie = "cookiename= ; expires = Thu, 01 Jan 1970 00:00:00 GMT"
+    showDialog('The Cookie was cleared');
+}
+ClearCookie();
