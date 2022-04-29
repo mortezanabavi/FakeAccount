@@ -23,7 +23,7 @@ function ClearCookie(){
     showDialog('The Cookie was cleared');
 }
 function SignUp(email){
-    window.location.assign();
+    window.location.reload(true);
     window.onload = function(){
         document.getElementById("email").value = email;
         document.getElementById("btn-id-hmjjvmhj9zg").click();
