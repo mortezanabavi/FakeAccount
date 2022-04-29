@@ -22,15 +22,14 @@ function ClearCookie(){
     document.cookie = '';
 }
 function SignUp(email){
-    window.location.reload(true);
     window.onload = function(){
         document.getElementById("email").value = email;
         document.getElementById("btn-id-hmjjvmhj9zg").click();
         setTimeout(() => {
             ClearCookie();
         }, 8000);
+        showDialog('SignUp Done.');
     };
-    showDialog('SignUp Done.');
 }
 function Run(){
     SignUp('mortezanabavi905@gmail.com');
