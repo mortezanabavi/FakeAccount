@@ -23,12 +23,10 @@ function ClearCookie(){
 }
 function SignUp(){
     try{
-        window.onload = function(){
-            var email = 'mortezanabavi'+Math.floor(Math.random() * 900)+'@gmail.com';
-            document.getElementById("email").value = email;
-            document.getElementById("btn-id-hmjjvmhj9zg").click();
-            showDialog('SignUp Done.');
-        };
+        var email = 'mortezanabavi'+Math.floor(Math.random() * 900)+'@gmail.com';
+        document.getElementById("email").value = email;
+        document.getElementById("btn-id-hmjjvmhj9zg").click();
+        showDialog('SignUp Done.');
     }
     catch(err) {
         alert(err);
