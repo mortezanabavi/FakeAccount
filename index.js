@@ -29,8 +29,8 @@ async function SignUp(){
     document.getElementById("email").value = email;
     document.getElementById("btn-id-hmjjvmhj9zg").click();
     showDialog('SignUp Done.');
-    await sleep(4000);
-    showDialog('Reloaded ...');
+    await sleep(5000);
+    showDialog('Page Reloaded ...');
     window.open("https://waitlist.stackedinvest.com/invest?kid=2BGR4H", "_self"); 
 }
 SignUp();
