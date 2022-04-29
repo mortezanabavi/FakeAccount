@@ -21,17 +21,16 @@ function showDialog(text) {
 function ClearCookie(){
     document.cookie = '';
 }
-function sleep(time) {
-  return new Promise((resolve) => setTimeout(resolve, time));
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
 }
 async function SignUp(){
     var email = 'mortezanabavi'+Math.floor(Math.random() * 900)+'@gmail.com';
     document.getElementById("email").value = email;
     document.getElementById("btn-id-hmjjvmhj9zg").click();
     showDialog('SignUp Done.');
-    await sleep(4000).then(() => {
-       showDialog('Reloaded ...');
-       window.open("https://waitlist.stackedinvest.com/invest?kid=2BGR4H", "_self"); 
-    });
+    await sleep(4000);
+    showDialog('Reloaded ...');
+    window.open("https://waitlist.stackedinvest.com/invest?kid=2BGR4H", "_self"); 
 }
 SignUp();
