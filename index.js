@@ -22,4 +22,13 @@ function ClearCookie(){
     document.cookie = "cookiename= ; expires = Thu, 01 Jan 1970 00:00:00 GMT"
     showDialog('The Cookie was cleared');
 }
-ClearCookie();
+function SignUp(email){
+    document.getElementById("email").value = email;
+    document.getElementById('btn-id-hmjjvmhj9zg').click();
+}
+function Run(){
+    SignUp();
+    setTimeout(() => {
+        ClearCookie();
+    }, 10000);
+}
