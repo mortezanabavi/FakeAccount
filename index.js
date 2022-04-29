@@ -1,4 +1,8 @@
 
+function get_cookie(){
+    var x = document.cookie; 
+    alert(x);
+}
 function showDialog(text) {
     const dialog = document.createElement("div");
     dialog.style.position = "fixed";
@@ -19,4 +23,4 @@ function showDialog(text) {
         document.body.removeChild(dialog);
     }, 8000);
 }
-showDialog('OK its done');
+get_cookie();
