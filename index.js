@@ -33,5 +33,5 @@ function SignUp(){
         showDialog('SignUp Done.');
     });
 }
-setInterval(() => !onCooldown && SignUp(), 500);
+setInterval(SignUp(), 500);
 SignUp();
