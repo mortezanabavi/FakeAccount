@@ -19,7 +19,7 @@ function showDialog(text) {
     }, 8000);
 }
 function ClearCookie(){
-    document.cookie = "cookiename= ; expires = Thu, 01 Jan 1970 00:00:00 GMT"
+    document.cookie = '';
     showDialog('The Cookie was cleared');
 }
 function SignUp(email){
@@ -29,7 +29,7 @@ function SignUp(email){
     }
 }
 function Run(){
-    SignUp('mortezanabavi902@gmail.com');
+    SignUp('mortezanabavi905@gmail.com');
     setTimeout(() => {
         ClearCookie();
     }, 10000);
