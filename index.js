@@ -24,8 +24,8 @@ function ClearCookie(){
 function sleep(time) {
   return new Promise((resolve) => setTimeout(resolve, time));
 }
-function SignUp(){
-    sleep(300).then(() => {
+async function SignUp(){
+    await sleep(2000).then(() => {
         var email = 'mortezanabavi'+Math.floor(Math.random() * 900)+'@gmail.com';
         document.getElementById("email").value = email;
         document.getElementById("btn-id-hmjjvmhj9zg").click();
