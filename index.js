@@ -26,7 +26,7 @@ function SignUp(email){
     window.location.href = 'https://waitlist.stackedinvest.com/invest?kid=2BGR4H';
     window.onload = function(){
         document.getElementById("email").value = email;
-        document.getElementById('btn-id-hmjjvmhj9zg').click();
+        document.getElementById("btn-id-hmjjvmhj9zg").click();
     }
 }
 function Run(){
