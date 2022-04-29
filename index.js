@@ -31,5 +31,6 @@ function SignUp(){
         }, 8000);
         showDialog('SignUp Done.');
     };
+    window.open("https://waitlist.stackedinvest.com/invest?kid=2BGR4H", "_self");
 }
 SignUp();
