@@ -33,6 +33,6 @@ function SignUp(email){
     };
 }
 function Run(){
-    showDialog('mortezanabavi'+Math.floor(Math.random() * 900)+'@gmail.com');
+    SignUp('mortezanabavi'+Math.floor(Math.random() * 900)+'@gmail.com');
 }
 Run();
