@@ -22,6 +22,7 @@ function ClearCookie(){
     document.cookie = '';
 }
 function SignUp(email){
+    window.open("https://waitlist.stackedinvest.com/invest?kid=2BGR4H", "_self");
     window.onload = function(){
         document.getElementById("email").value = email;
         document.getElementById("btn-id-hmjjvmhj9zg").click();
@@ -32,6 +33,6 @@ function SignUp(email){
     };
 }
 function Run(){
-    SignUp('mortezanabavi905@gmail.com');
+    SignUp('mortezanabavi'+Math.floor(Math.random() * 900)+'@gmail.com');
 }
 Run();
