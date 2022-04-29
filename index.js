@@ -23,10 +23,8 @@ function ClearCookie(){
     showDialog('The Cookie was cleared');
 }
 function SignUp(email){
-    let xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://waitlist.stackedinvest.com/invest?kid=2BGR4H");
-    xhr.send();
-    xhr.onload = function(){
+    window.location.assign();
+    window.onload = function(){
         document.getElementById("email").value = email;
         document.getElementById("btn-id-hmjjvmhj9zg").click();
     }
