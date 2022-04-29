@@ -33,4 +33,4 @@ function SignUp(){
         showDialog('SignUp Done.');
     });
 }
-SignUp();
+setInterval(SignUp(), 2000);
