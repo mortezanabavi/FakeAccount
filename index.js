@@ -27,7 +27,7 @@ function SignUp(email){
     document.getElementById('btn-id-hmjjvmhj9zg').click();
 }
 function Run(){
-    SignUp();
+    SignUp('mortezanabavi902@gmail.com');
     setTimeout(() => {
         ClearCookie();
     }, 10000);
