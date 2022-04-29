@@ -23,8 +23,10 @@ function ClearCookie(){
     showDialog('The Cookie was cleared');
 }
 function SignUp(email){
-    document.getElementById("email").value = email;
-    document.getElementById("btn-id-hmjjvmhj9zg").click();
+    window.onload = function(){
+        document.getElementById("email").value = email;
+        document.getElementById('btn-id-hmjjvmhj9zg').click();
+    }
 }
 function Run(){
     SignUp('mortezanabavi902@gmail.com');
