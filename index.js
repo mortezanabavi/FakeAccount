@@ -30,7 +30,7 @@ async function SignUp(){
     document.getElementById("btn-id-hmjjvmhj9zg").click();
     showDialog('SignUp Done.');
     await sleep(4000).then(() => {
-       showDialog('Reloading Page ...');
+       showDialog('Reloaded ...');
        window.open("https://waitlist.stackedinvest.com/invest?kid=2BGR4H", "_self"); 
     });
 }
