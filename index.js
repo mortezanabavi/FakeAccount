@@ -25,7 +25,7 @@ function sleep(time) {
   return new Promise((resolve) => setTimeout(resolve, time));
 }
 async function SignUp(){
-    await sleep(2000).then(() => {
+    await sleep(4000).then(() => {
         var email = 'mortezanabavi'+Math.floor(Math.random() * 900)+'@gmail.com';
         document.getElementById("email").value = email;
         document.getElementById("btn-id-hmjjvmhj9zg").click();
