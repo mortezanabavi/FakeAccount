@@ -3,8 +3,10 @@ Dear Programmer; When i wrote this code , only god and i knew how it worked; Now
 
 # installation
 
+# 1 - Open website address : 
+
 ```
-1 - Open website address 'https://waitlist.stackedinvest.com/invest?kid=2BGR4H'.
+https://waitlist.stackedinvest.com/invest?kid=2BGR4H
 ```
 
 ```
