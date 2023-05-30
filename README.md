@@ -1,5 +1,5 @@
 # FakeAccount
-This Script is used to create an fake account on https://waitlist.stackedinvest.com
+This Script is used to create a fake account on https://waitlist.stackedinvest.com
 
 # installation
 
