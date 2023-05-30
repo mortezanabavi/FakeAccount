@@ -1,5 +1,5 @@
 # FakeAccount
-Dear Programmer; When i wrote this code , only god and i knew how it worked; Now only god knows it. This Script is used to create an fake account on https://waitlist.stackedinvest.com
+This Script is used to create an fake account on https://waitlist.stackedinvest.com
 
 # installation
 
