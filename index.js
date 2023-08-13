@@ -11,7 +11,7 @@ function showDialog(text) {
     dialog.style.padding = "10px";
     dialog.style.borderRadius = "10px";
     dialog.style.boxShadow = "0px 0px 10px black";
-    dialog.style.zIndex = "30";
+    dialog.style.zIndex = "2";
     dialog.innerHTML = text;
     document.body.appendChild(dialog);
     setTimeout(() => {
